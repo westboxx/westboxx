@@ -1,0 +1,184 @@
+/* global */
+* {
+    --font-family: "Droid Sans";
+    font-family: 'Oxygen', sans-serif;
+}
+.center {
+    text-align:center;
+}
+.right {
+    text-align:right;
+}
+.right-float {
+    float:right !important;
+}
+.clear {
+    clear:both;
+}
+.gray,
+.gray * {
+    color:#777;
+}
+.gray a {
+    color:#4444ff;
+}
+.red,
+.error {
+    color:red;
+}
+.green,
+.success {
+    color:green;
+}
+
+a {
+    text-decoration:none;
+    color:blue;
+}
+a:hover {
+    text-decoration:underline;
+}
+
+.row {
+    max-width:960px;
+}
+
+/* header */
+.header {
+    background:#66a0ec;
+    margin-bottom:20px;
+}
+.header a {
+    color:black;
+}
+.header p {
+    margin:0;
+}
+.header-logo {
+    padding: 0 0 2px 5px;
+}
+.header-content {
+    color:black;
+    text-align:right;
+    padding:2px 5px 0 0;
+}
+
+/* footer */
+.footer {
+    margin-top:10px;
+    border-top:1px #ccc solid;
+    font-size:12px;
+}
+.footer,
+.footer a {
+    color:#777;
+}
+
+/* side menu */
+.menu-side ul {
+    list-style: none;
+}
+.menu-side ul ul {
+    list-style: disc;
+}
+.menu-side li {
+    margin-bottom:0;
+}
+.menu-side li ul {
+    margin-left:20px;
+    margin-bottom:10px;
+}
+.menu-side li + li {
+    margin-bottom:10px;
+}
+.menu-side li li {
+    margin-left:-4px;
+}
+.menu-side li li + li {
+    margin-bottom:0;
+}
+
+/* content */
+p,
+li,
+table,
+form {
+    font-size:13px;
+}
+
+table th {
+    font-weight:normal;
+    text-align:left;
+}
+table .spacer {
+    height:15px;
+}
+
+li {
+    margin-bottom:10px;
+}
+.no-margin-bottom li {
+    margin-bottom:0;
+}
+
+.content p {
+    text-align:justify;
+}
+p + ul,
+p + p,
+p + form {
+    margin-top:10px;
+}
+.ul-no-margin {
+}
+.ul-no-margin li {
+    margin-bottom:0;
+}
+
+.content h1,
+h2,
+h3,
+h5 {
+    margin-bottom:5px;
+}
+.content h1 a,
+h2 a,
+h5 a {
+    margin-bottom:5px;
+    color:inherit;
+}
+.content h1,
+h2,
+h3 {
+    border-bottom:1px #ccc solid;
+}
+table h3 {
+    font-weight:normal;
+}
+.content h1 {
+    font-size:25px;
+}
+h2 {
+    font-size:20px;
+}
+h3 {
+    font-size:15px;
+}
+
+h2,
+h3,
+h5 {
+    margin-top:15px;
+}
+h5 {
+    font-weight:normal;
+}
+
+.content li {
+    margin-left:15px;
+}
+
+.smart-box {
+    width:45%;
+    float:left;
+}
